@@ -1,0 +1,23 @@
+@media(max-width:950px){
+    .servises__list{
+        justify-content: space-evenly;
+    }
+    .advant__box{
+        justify-content: space-evenly;
+    }
+}
+@media( max-width:758px){
+    footer .container{
+        flex-direction: column;
+        gap:15px;
+    }
+}
+
+@media(max-width:425px){
+    .header__link{
+        width: 100%;
+    }
+    .logo{
+        margin-bottom: 50px;
+    }
+}

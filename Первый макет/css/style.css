@@ -1,0 +1,157 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    padding: 20px 0px 201px 0px;
+    text-align: center;
+}
+.container{
+    max-width: 1140px;
+    margin: 0px auto ;
+    padding: 0px 16px;
+}
+.logo{
+    margin-bottom: 138px;
+    display: inline-block;
+}
+h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 26px;
+}
+header p{
+    font-size: 14px;
+    line-height: 15px;
+    max-width: 550px;
+    margin: 0px auto 25px auto;
+}
+.header__link{
+    border: 1px solid #F5CE00;
+    box-sizing: border-box; 
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    display: inline-block;
+    transition: 0.3s;
+}
+.header__link_first{
+    background: #F5CE00;
+    padding: 20px 36px;
+    margin: 0px 0px 20px 0px ;
+}
+.header__link_first:hover{
+    background-color: #FFFFFF; 
+}
+.header__link_second{
+    background: #FFFFFF;
+    padding: 20px 30px 20px 29px;
+}
+.header__link_second:hover{
+    background-color: #F5CE00;
+}
+.servises{
+    background-color: #F3F3F3;
+    padding: 70px 0px 79px 0px;
+    text-align: center;
+}
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.servises__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 38px;
+    margin-bottom: 70px;
+}
+.servises__iteom{
+    width: 30%;
+    min-width: 280px;
+}
+.servises__iteom img{
+    margin-bottom: 29px;
+}
+.servises__iteom h3{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 18px;
+}
+.text{
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.advant{
+    background: #E3E1E1;
+    padding-top: 79px;
+    padding-bottom: 87px;
+}
+.advant__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5vw;
+    flex-wrap: wrap;
+}
+.advant__item{
+    display: flex;
+    gap: 21px;
+    margin-bottom: 34px;
+}
+.advant__item span{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    position: relative;
+    top: -10px;
+}
+.advant__item h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 23px;
+}
+.advant__item p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.3px;
+}
+.advant__list, .advant__img{
+    width: 30%;
+    min-width: 280px;
+}
+footer{
+    background-color: #413939;
+    padding: 72px 0px ;
+}
+footer p{
+    left: 365px;
+    top: 90px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+footer .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
